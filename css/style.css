@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+    
 }
 
 
@@ -178,6 +179,31 @@
 
 .bold{
     font-weight: 600;
+}
+
+.section-photos{
+    padding: 20px 0;
+}
+
+.section-photos .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.photos{
+    display: flex;
+    align-items: center;
+}
+
+.photos img{
+    width: 450px;
+    height: 450px;
+    object-fit: fill;
+    
+    padding: 0;
+    margin: 0;
 }
 
 
