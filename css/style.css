@@ -181,9 +181,6 @@
     font-weight: 600;
 }
 
-.section-photos {
-    padding: 20px 0;
-}
 
 .section-photos .container {
     display: flex;
@@ -197,12 +194,11 @@
     align-items: center;
 }
 
-.photos img {
-    width: 450px;
-    height: 450px;
-    object-fit: cover;
-    padding: 0;
-    margin: 0;
+.photos {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    font-size: 0; /* Elimina espacios entre imágenes */
 }
 
 .started-projects {
